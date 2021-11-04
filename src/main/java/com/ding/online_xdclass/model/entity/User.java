@@ -1,4 +1,4 @@
-package com.ding.online_xdclass.domain;
+package com.ding.online_xdclass.model.entity;
 import java.util.Date;
 /**
  * `id` int(11) unsigned NOT NULL AUTO_INCREMENT,

@@ -1,6 +1,6 @@
 package com.ding.online_xdclass.mapper;
 
-import com.ding.online_xdclass.domain.User;
+import com.ding.online_xdclass.model.entity.User;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -12,7 +12,11 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserMapper {
+
     int save(User user);
 
     User findByPhone(@Param("phone") String phone);
+
+    User findByPhoneAndPwd(@Param("phone") String phone, @Param("pwd") String pwd);
+
 }

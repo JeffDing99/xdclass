@@ -6,7 +6,7 @@
 
           select * from video
     </select>
-    <select id="listVideoBanner" resultType="com.ding.online_xdclass.domain.VideoBanner">
+    <select id="listVideoBanner" resultType="com.ding.online_xdclass.model.entity.VideoBanner">
         select * from video_banner order by weight asc
     </select>
 

@@ -16,4 +16,6 @@ public interface UserService {
      * @return
      */
     int save(Map<String,String> userInfo);
+
+    String findByPhoneAndPwd(String phone, String pwd);
 }

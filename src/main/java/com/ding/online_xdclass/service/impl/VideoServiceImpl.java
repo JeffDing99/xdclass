@@ -1,7 +1,7 @@
 package com.ding.online_xdclass.service.impl;
 
-import com.ding.online_xdclass.domain.Video;
-import com.ding.online_xdclass.domain.VideoBanner;
+import com.ding.online_xdclass.model.entity.Video;
+import com.ding.online_xdclass.model.entity.VideoBanner;
 import com.ding.online_xdclass.mapper.VideoMapper;
 import com.ding.online_xdclass.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;

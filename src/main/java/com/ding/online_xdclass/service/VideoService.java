@@ -1,8 +1,7 @@
 package com.ding.online_xdclass.service;
 
-import com.ding.online_xdclass.domain.Video;
-import com.ding.online_xdclass.domain.VideoBanner;
-import org.springframework.stereotype.Service;
+import com.ding.online_xdclass.model.entity.Video;
+import com.ding.online_xdclass.model.entity.VideoBanner;
 
 import java.util.List;
 

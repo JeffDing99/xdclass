@@ -1,7 +1,7 @@
 package com.ding.online_xdclass.controller;
 
-import com.ding.online_xdclass.domain.Video;
-import com.ding.online_xdclass.domain.VideoBanner;
+import com.ding.online_xdclass.model.entity.Video;
+import com.ding.online_xdclass.model.entity.VideoBanner;
 import com.ding.online_xdclass.service.VideoService;
 import com.ding.online_xdclass.utils.JsonData;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.temporal.ValueRange;
 import java.util.List;
 
 /**

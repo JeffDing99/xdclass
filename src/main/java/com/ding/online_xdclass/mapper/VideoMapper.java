@@ -1,7 +1,7 @@
 package com.ding.online_xdclass.mapper;
 
-import com.ding.online_xdclass.domain.Video;
-import com.ding.online_xdclass.domain.VideoBanner;
+import com.ding.online_xdclass.model.entity.Video;
+import com.ding.online_xdclass.model.entity.VideoBanner;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

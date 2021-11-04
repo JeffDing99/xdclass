@@ -20,7 +20,10 @@
 
     </select>
 
-
+    <!--根据手机号和密码找用户-->
+    <select id="findByPhoneAndPwd" resultType="com.ding.online_xdclass.model.entity.User">
+        select  * from user where phone =#{phone} and pwd = #{pwd}
+    </select>
 
 
 </mapper>
