@@ -56,7 +56,7 @@ public class VideoController {
     public JsonData findDataById(@RequestParam(value = "video_id",required = true)int videoId) {
 
         Video video = videoService.findDetailById(videoId);
-        int i= 1/0;
+        //int i= 1/0;
         return JsonData.buildSuccess(video);
     }
 }

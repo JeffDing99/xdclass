@@ -19,4 +19,5 @@ public interface UserMapper {
 
     User findByPhoneAndPwd(@Param("phone") String phone, @Param("pwd") String pwd);
 
+    User findByUserId(@Param("user_id") Integer userId);
 }

@@ -47,6 +47,13 @@ public class UserServiceImpl implements UserService {
         }
     }
 
+    @Override
+    public User findByUserId(Integer userId) {
+
+        User user = userMapper.findByUserId(userId);
+        return null;
+    }
+
     /**
      * 解析user对象
      * @param userInfo
